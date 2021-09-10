@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background: #0b0e0b;
+}
+.title_div{
+    margin: 30px auto;
+    color: #d26c6c;
+    text-align: center;
+    width: max-content;
+    font-size: 2.5rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-shadow: 1px -1px 13px #d53939;
+}
+.container{
+    margin: 10vh auto;
+    width: 70%;
+    height: 100%;
+    min-height: 65vh;
+    box-shadow: 5px -5px 5px 10px #655858;
+    border-radius: 10px;
+    padding: 1.5rem 2rem;
+    text-align: center;
+    color: white;
+    background: radial-gradient(#d71f1f, transparent);
+}
+
+.input_section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.input_div{
+    margin: 1rem 0;
+}
+.input_section label{
+    margin-top: 0.5rem;
+    font-weight: 500;
+    padding: 0.5rem 0;
+}
+.input_section input{
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    color: white;
+    outline: none;
+    border-bottom: 3px solid gray;
+    border-radius: 0.2rem;
+    padding: 0.3rem;
+    margin: 0 0.3rem;
+    background: transparent;
+}
+.input_section button{
+    margin-top: 1.5rem;
+    background: grey;
+    border: none;
+    padding: 0.5rem 1.5em;
+    font-weight: 700;
+    border-radius: 0.2rem;
+    color: white;
+    letter-spacing: 1px;
+}
+.input_section button:hover{
+    background: rgb(160, 158, 158);
+    color:black
+}
+.result_section{
+    margin-top: 2rem;
+    font-weight: 700;
+    width: max-content;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    overflow: scroll;
+}
+/* hiding arrows from input section */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.change-table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: max-content;
+  }
+  
+  .change-table td, .change-table th {
+    border: 5px solid #ddd;
+    padding: 8px;
+    background-color:  radial-gradient(#d71f1f, transparent);
+  }
+  
+  .change-table td:hover{
+    background-color: #aba4a4;
+  }
+  
+  .change-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+}

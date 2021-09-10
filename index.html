@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cashify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title_div">Cashify</div>
+    <div class="container">
+       <h2>Know minimum no. of notes to be return</h2>
+        <div class="input_section">
+            <label for="total_bill">Total bill amount :</label>
+            <input type="number" min="1" id="total_bill">
+            <label for="cash_given">Cash given :</label>
+            <input type="number" min="1" id="cash_given">
+            <button id='submit_button' >Check</button>
+            <p id="error-message"></p>
+        </div>
+        <div class="result_section" id='result_section'> 
+            
+            <table class="change-table">
+                <caption style="margin: 1rem auto;">Return Change</caption>
+                <tr>
+                    <th>No.of notes</th>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                </tr>
+                <tr>
+                    <th>Notes available</th>
+                    <td>2000</td>
+                    <td>500</td>
+                    <td>100</td>
+                    <td>20</td>
+                    <td>10</td>
+                    <td>5</td>
+                    <td>1</td>                
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
