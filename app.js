@@ -24,6 +24,7 @@ function calculateChange(amountToBeReturned) {
         const numberOfNotes = Math.trunc(amountToBeReturned / availableNotes[i]);
         amountToBeReturned = amountToBeReturned % availableNotes[i];
         noOfNotes[i].innerText = numberOfNotes;
+        noOfNotes[i].setAttribute('data-value',numberOfNotes)
     }
 }
 
