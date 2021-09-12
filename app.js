@@ -7,9 +7,6 @@ const noOfNotes = document.querySelectorAll(".no-of-notes");
 const availableNotes = [2000, 500, 100, 20, 10, 5, 1];
 submit_button.addEventListener("click", function validateBillAndCashAmount() {
     hideMessage();
-    if (cashGiven.value >= billAmount.value) {
-        return showMessage("Bill amount should be less than cash given");
-    }
     if (billAmount.value > 0) {
         if (cashGiven.value >= billAmount.value) {
             const amountToBeReturned = cashGiven.value - billAmount.value;
