@@ -21,12 +21,11 @@ body{
     min-width: 300px;
     height: 100%;
     min-height: 65vh;
-    box-shadow: 1px 1px 3px 2px #655858;
+    box-shadow: 0px 0px 3px 2px #e0e0e0;
     border-radius: 10px;
     padding: 1.5rem 2rem;
     text-align: center;
-    color: white;
-    background: #3781ba
+    background: #ffffff
 }
 
 .input_section{
@@ -46,9 +45,8 @@ body{
     font-weight: 700;
     text-align: center;
     border: none;
-    color: white;
     outline: none;
-    border-bottom: 3px solid white;
+    border-bottom: 3px solid black;
     border-radius: 0.2rem;
     padding: 0.3rem;
     margin: 0 0.3rem;
@@ -66,6 +64,11 @@ body{
 }
 .input_section button:hover{
     background: rgb(44, 43, 43);
+}
+#error-message{
+    margin: 1rem auto 0 auto;
+    font-weight: 700;
+    color: brown;
 }
 .result_section{
     display: flex;
@@ -115,6 +118,8 @@ input::-webkit-inner-spin-button {
   .change-table th {
     text-align: left;
 }
+
+
 .footer{
     background-color:transparent;
 }
