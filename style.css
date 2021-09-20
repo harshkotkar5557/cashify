@@ -53,6 +53,7 @@ body{
     background: transparent;
 }
 .input_section button{
+    cursor: pointer;
     margin-top: 1.5rem;
     background: black;
     border: none;
