@@ -31,7 +31,6 @@ function calculateChange(amountToBeReturned) {
             noOfNotes[i].style['font-size'] = '2rem'
             noOfNotes[i].style.color = 'red'
             noOfNotes_td[i].style['font-size'] = '2rem'
-            noOfNotes_td[i].style.color = 'red'
         }
         noOfNotes[i].setAttribute('data-value',numberOfNotes)
     }
