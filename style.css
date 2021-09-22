@@ -52,6 +52,12 @@ body{
     margin: 0 0.3rem;
     background: transparent;
 }
+#cash_given{
+    display: none;
+}
+#label_cash_given{
+    display: none;
+}
 .input_section button{
     cursor: pointer;
     margin-top: 1.5rem;
@@ -92,6 +98,7 @@ input::-webkit-inner-spin-button {
 
 .change-table {
     border-collapse: collapse;
+    display: none;
 }
   .change-table th{
       display: inline-block;

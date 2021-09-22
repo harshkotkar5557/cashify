@@ -17,8 +17,8 @@
        <h2>Know minimum no. of notes to be return</h2>
         <div class="input_section">
             <label for="total_bill">Total bill amount :</label>
-            <input type="number" min="1" id="total_bill">
-            <label for="cash_given">Cash given :</label>
+            <input type="number" onchange="opencashGiven()" min="1" id="total_bill" autofocus>
+            <label for="cash_given" id='label_cash_given'>Cash given :</label>
             <input type="number" min="1" id="cash_given">
             <button id='submit_button' >Check</button>
             <p id="error-message"></p>
